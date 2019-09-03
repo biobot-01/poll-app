@@ -1,0 +1,13 @@
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li a {
+  color: #39b33e;
+  padding: 8px;
+}
+
+a {
+  text-decoration: none;
+}
