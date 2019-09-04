@@ -2,7 +2,7 @@ from django.contrib import admin
 from .models import Choice, Question
 
 
-class ChoiceInline(admin.StackedInline):
+class ChoiceInline(admin.TabularInline):
     """Link Choice with Question Model Admin."""
 
     model = Choice
